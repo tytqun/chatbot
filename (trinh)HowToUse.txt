@@ -5,3 +5,6 @@
 Run ngrok (Ở dưới là Token của Trịnh)
 5. ngrok config add-authtoken 2zCGSfQR5aZ7EtQwpjtF7JR4FNt_7fpvL7aaU6bTCqdXEoDHm
 6. ngrok http --domain=garfish-optimum-impala.ngrok-free.app 8000
+Deploy: Terminal
+curl -X POST "http://localhost:8000/chat?user_id=9794320"
+(có thể xài user_id khác trong file data/churn_prediction mà deploy cái đó cũm đc)
