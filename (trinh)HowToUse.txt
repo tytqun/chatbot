@@ -1,0 +1,7 @@
+1. Download Ngork
+2. Recommend Python 3.11.9
+3. pip install -r requirements.txt
+4. uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+Run ngrok (Ở dưới là Token của Trịnh)
+5. ngrok config add-authtoken 2zCGSfQR5aZ7EtQwpjtF7JR4FNt_7fpvL7aaU6bTCqdXEoDHm
+6. ngrok http --domain=garfish-optimum-impala.ngrok-free.app 8000
