@@ -1,10 +1,9 @@
 import os
 import pandas as pd
 from functools import lru_cache
-from langchain_google_genai import ChatGoogleGenerativeAI # Đã bật lại
-from langchain_core.prompts import PromptTemplate # Đã bật lại
+from langchain_google_genai import ChatGoogleGenerativeAI 
+from langchain_core.prompts import PromptTemplate 
 
-# Đảm bảo bạn đã đặt biến môi trường GOOGLE_API_KEY
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 
 @lru_cache(maxsize=1)
